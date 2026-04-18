@@ -2,7 +2,8 @@
 /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/launch/slam_core.launch.xml
 /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/launch/nav2.launch.xml
 /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/launch/nav2_core.launch.xml
-/home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/maps/my_map.yaml
+/home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/maps/map.yaml
+/home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/maps/map.pgm
 /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/maps/my_map.pgm
 /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/rviz/slam.rviz
 /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/rviz/nav2.rviz
