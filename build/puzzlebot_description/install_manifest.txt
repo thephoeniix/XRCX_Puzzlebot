@@ -1,4 +1,8 @@
+/home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/urdf/puzzlebot.xacro
 /home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/rviz/puzzlebot_description.rviz
+/home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/meshes/Base/Puzzlebot_Jetson_Lidar_Edition_Base(1).stl
+/home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/meshes/Wheel/Puzzlebot_Wheel.stl
+/home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/meshes/Caster wheel/Puzzlebot_Caster_Wheel.stl
 /home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/launch/puzzlebot_description.launch.xml
 /home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/ament_index/resource_index/package_run_dependencies/puzzlebot_description
 /home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/ament_index/resource_index/parent_prefix_path/puzzlebot_description

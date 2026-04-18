@@ -231,7 +231,7 @@
 			[
 				"launch",
 				"worlds",
-				"configure_file"
+				"config"
 			],
 			"type" : "directory"
 		},
