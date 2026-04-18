@@ -5,8 +5,12 @@
     <let name="gz_sim_launch_path" value="$(find-pkg-share ros_gz_sim)/launch/gz_sim.launch.py" /> 
     <let name="x_pose" value="1.35" /> 
     <let name="y_pose" value="0.0" /> 
+    
     <arg name="use_sim_time" default="true" /> 
     <arg name="headless" default="false" /> 
+
+    <set_env name="IGN_GAZEBO_RESOURCE_PATH" value="$(find-pkg-share puzzlebot_description)/.." />
+    <set_env name="GZ_SIM_RESOURCE_PATH" value="$(find-pkg-share puzzlebot_description)/.." />
 
     <include if="$(not $(var headless))" file="$(var gz_sim_launch_path)">
         <arg name="gz_args" value="$(var world) -r " /> 
@@ -23,6 +27,6 @@
     <node pkg="ros_gz_sim" exec="create" output="screen" args="-name puzzlebot -topic robot_description -x $(var x_pose) -y $(var y_pose) -z 0.01 -Y 3.1416" />
 
     <node pkg="ros_gz_bridge" exec="parameter_bridge" output="screen">
-        <param name="config_file" value="$(var gazebo_bridge_config_path)">
+        <param name="config_file" value="$(var gazebo_bridge_config_path)"/>
     </node> 
 </launch>
