@@ -5,7 +5,7 @@
     
     <arg name="use_sim_time" default="true" />
     <arg name="headless" default="true" />
-    <arg name="map_path" default="$(find-pkg-share puzzlebot_navigation)/maps/map_maze.yaml" />
+    <arg name="map_path" default="$(find-pkg-share puzzlebot_navigation)/maps/map.yaml" />
     <arg name="nav2_params_file" default="$(find-pkg-share puzzlebot_navigation)/config/nav2_params.yaml" />
 
     <include file="$(var puzzlebot_gazebo_launch_path)" >
