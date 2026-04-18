@@ -1,0 +1,39 @@
+[0.006s] Invoking command in '/home/sofiabl/puzzlebot_ws/build/puzzlebot_navigation': AMENT_PREFIX_PATH=/home/sofiabl/puzzlebot_ws/install/puzzlebot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sofiabl/puzzlebot_ws/install/puzzlebot_description:/opt/ros/humble /usr/bin/cmake /home/sofiabl/puzzlebot_ws/src/puzzlebot_ros2/puzzlebot_navigation -DCMAKE_INSTALL_PREFIX=/home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation
+[0.090s] -- The C compiler identification is GNU 11.4.0
+[0.163s] -- The CXX compiler identification is GNU 11.4.0
+[0.171s] -- Detecting C compiler ABI info
+[0.224s] -- Detecting C compiler ABI info - done
+[0.229s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.230s] -- Detecting C compile features
+[0.230s] -- Detecting C compile features - done
+[0.233s] -- Detecting CXX compiler ABI info
+[0.293s] -- Detecting CXX compiler ABI info - done
+[0.299s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.299s] -- Detecting CXX compile features
+[0.300s] -- Detecting CXX compile features - done
+[0.304s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.426s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.513s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.565s] -- Configuring done
+[0.567s] -- Generating done
+[0.568s] -- Build files have been written to: /home/sofiabl/puzzlebot_ws/build/puzzlebot_navigation
+[0.572s] Invoked command in '/home/sofiabl/puzzlebot_ws/build/puzzlebot_navigation' returned '0': AMENT_PREFIX_PATH=/home/sofiabl/puzzlebot_ws/install/puzzlebot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sofiabl/puzzlebot_ws/install/puzzlebot_description:/opt/ros/humble /usr/bin/cmake /home/sofiabl/puzzlebot_ws/src/puzzlebot_ros2/puzzlebot_navigation -DCMAKE_INSTALL_PREFIX=/home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation
+[0.573s] Invoking command in '/home/sofiabl/puzzlebot_ws/build/puzzlebot_navigation': AMENT_PREFIX_PATH=/home/sofiabl/puzzlebot_ws/install/puzzlebot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sofiabl/puzzlebot_ws/install/puzzlebot_description:/opt/ros/humble /usr/bin/cmake --build /home/sofiabl/puzzlebot_ws/build/puzzlebot_navigation -- -j12 -l12
+[0.600s] Invoked command in '/home/sofiabl/puzzlebot_ws/build/puzzlebot_navigation' returned '0': AMENT_PREFIX_PATH=/home/sofiabl/puzzlebot_ws/install/puzzlebot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sofiabl/puzzlebot_ws/install/puzzlebot_description:/opt/ros/humble /usr/bin/cmake --build /home/sofiabl/puzzlebot_ws/build/puzzlebot_navigation -- -j12 -l12
+[0.601s] Invoking command in '/home/sofiabl/puzzlebot_ws/build/puzzlebot_navigation': AMENT_PREFIX_PATH=/home/sofiabl/puzzlebot_ws/install/puzzlebot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sofiabl/puzzlebot_ws/install/puzzlebot_description:/opt/ros/humble /usr/bin/cmake --install /home/sofiabl/puzzlebot_ws/build/puzzlebot_navigation
+[0.607s] -- Install configuration: ""
+[0.607s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/ament_index/resource_index/package_run_dependencies/puzzlebot_navigation
+[0.608s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/ament_index/resource_index/parent_prefix_path/puzzlebot_navigation
+[0.608s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/environment/ament_prefix_path.sh
+[0.608s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/environment/ament_prefix_path.dsv
+[0.608s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/environment/path.sh
+[0.608s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/environment/path.dsv
+[0.608s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/local_setup.bash
+[0.608s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/local_setup.sh
+[0.609s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/local_setup.zsh
+[0.609s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/local_setup.dsv
+[0.609s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/package.dsv
+[0.609s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/ament_index/resource_index/packages/puzzlebot_navigation
+[0.609s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/cmake/puzzlebot_navigationConfig.cmake
+[0.609s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/cmake/puzzlebot_navigationConfig-version.cmake
+[0.609s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/package.xml

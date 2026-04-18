@@ -1,0 +1,45 @@
+[0.010s] Invoking command in '/home/sofiabl/puzzlebot_ws/build/puzzlebot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sofiabl/puzzlebot_ws/src/puzzlebot_ros2/puzzlebot_description -DCMAKE_INSTALL_PREFIX=/home/sofiabl/puzzlebot_ws/install/puzzlebot_description
+[0.111s] -- The C compiler identification is GNU 11.4.0
+[0.244s] -- The CXX compiler identification is GNU 11.4.0
+[0.254s] -- Detecting C compiler ABI info
+[0.318s] -- Detecting C compiler ABI info - done
+[0.327s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.328s] -- Detecting C compile features
+[0.328s] -- Detecting C compile features - done
+[0.332s] -- Detecting CXX compiler ABI info
+[0.412s] -- Detecting CXX compiler ABI info - done
+[0.420s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.421s] -- Detecting CXX compile features
+[0.421s] -- Detecting CXX compile features - done
+[0.429s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.566s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.724s] -- Configuring done
+[0.726s] -- Generating done
+[0.728s] -- Build files have been written to: /home/sofiabl/puzzlebot_ws/build/puzzlebot_description
+[0.732s] Invoked command in '/home/sofiabl/puzzlebot_ws/build/puzzlebot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sofiabl/puzzlebot_ws/src/puzzlebot_ros2/puzzlebot_description -DCMAKE_INSTALL_PREFIX=/home/sofiabl/puzzlebot_ws/install/puzzlebot_description
+[0.733s] Invoking command in '/home/sofiabl/puzzlebot_ws/build/puzzlebot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sofiabl/puzzlebot_ws/build/puzzlebot_description -- -j12 -l12
+[0.764s] Invoked command in '/home/sofiabl/puzzlebot_ws/build/puzzlebot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sofiabl/puzzlebot_ws/build/puzzlebot_description -- -j12 -l12
+[0.772s] Invoking command in '/home/sofiabl/puzzlebot_ws/build/puzzlebot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sofiabl/puzzlebot_ws/build/puzzlebot_description
+[0.778s] -- Install configuration: ""
+[0.778s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/urdf
+[0.778s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/rviz
+[0.778s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/rviz/puzzlebot_description.rviz
+[0.778s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/meshes
+[0.778s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/launch
+[0.778s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/launch/puzzlebot_description.launch.xml
+[0.778s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/ament_index/resource_index/package_run_dependencies/puzzlebot_description
+[0.778s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/ament_index/resource_index/parent_prefix_path/puzzlebot_description
+[0.779s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/environment/ament_prefix_path.sh
+[0.779s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/environment/ament_prefix_path.dsv
+[0.779s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/environment/path.sh
+[0.779s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/environment/path.dsv
+[0.779s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/local_setup.bash
+[0.779s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/local_setup.sh
+[0.779s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/local_setup.zsh
+[0.779s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/local_setup.dsv
+[0.779s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/package.dsv
+[0.780s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/ament_index/resource_index/packages/puzzlebot_description
+[0.780s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/cmake/puzzlebot_descriptionConfig.cmake
+[0.780s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/cmake/puzzlebot_descriptionConfig-version.cmake
+[0.780s] -- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/package.xml
+[0.782s] Invoked command in '/home/sofiabl/puzzlebot_ws/build/puzzlebot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sofiabl/puzzlebot_ws/build/puzzlebot_description

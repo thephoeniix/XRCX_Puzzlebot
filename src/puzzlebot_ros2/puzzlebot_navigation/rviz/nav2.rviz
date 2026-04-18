@@ -1,0 +1,36 @@
+Este perfil debe estar orientado a la navegación autónoma. Como mínimo, se espera que incluya los siguientes marcadores de RViz:
+
+    Grid → nombre descriptivo sugerido: Grid
+    RobotModel → nombre descriptivo sugerido: RobotModel
+    TF → nombre descriptivo sugerido: TF
+    LaserScan → nombre descriptivo sugerido: LaserScan
+    Map → nombre descriptivo sugerido: Map
+    Amcl Particle Swarm → nombre descriptivo sugerido: Amcl Particle Swarm
+
+Adicionalmente, se espera que en este perfil organicen algunos marcadores dentro de carpetas para mantener una visualización más clara y profesional.
+
+Carpeta Global Planner
+
+Dentro de esta carpeta se espera que incluyan, como mínimo:
+
+    Map → nombre descriptivo sugerido: Global Costmap
+    Path → nombre descriptivo sugerido: Path
+    Polygon → nombre descriptivo sugerido: Polygon
+
+Carpeta Controller
+
+Dentro de esta carpeta se espera que incluyan, como mínimo:
+
+    Map → nombre descriptivo sugerido: Local Costmap
+    Path → nombre descriptivo sugerido: Local Plan
+
+El objetivo de esta organización es que el perfil de navegación permita visualizar claramente:
+
+    El mapa general
+    Las partículas de AMCL
+    El costmap global
+    El costmap local
+    La trayectoria global
+    La trayectoria local que el robot intenta seguir
+
+Se puede usar la siguiente imagen como referencia:

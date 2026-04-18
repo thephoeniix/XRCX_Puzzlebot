@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/sofiabl/puzzlebot_ws/src/puzzlebot_ros2/puzzlebot_gazebo/configure_file":
+  No such file or directory.
+
+[0m

@@ -1,0 +1,17 @@
+/home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/rviz/puzzlebot_description.rviz
+/home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/launch/puzzlebot_description.launch.xml
+/home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/ament_index/resource_index/package_run_dependencies/puzzlebot_description
+/home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/ament_index/resource_index/parent_prefix_path/puzzlebot_description
+/home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/environment/ament_prefix_path.sh
+/home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/environment/ament_prefix_path.dsv
+/home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/environment/path.sh
+/home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/environment/path.dsv
+/home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/local_setup.bash
+/home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/local_setup.sh
+/home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/local_setup.zsh
+/home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/local_setup.dsv
+/home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/package.dsv
+/home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/ament_index/resource_index/packages/puzzlebot_description
+/home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/cmake/puzzlebot_descriptionConfig.cmake
+/home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/cmake/puzzlebot_descriptionConfig-version.cmake
+/home/sofiabl/puzzlebot_ws/install/puzzlebot_description/share/puzzlebot_description/package.xml

@@ -1,0 +1,14 @@
+ste perfil debe estar orientado al proceso de mapeo. Como mínimo, se espera que incluya los siguientes marcadores de RViz:
+
+    Grid → nombre descriptivo sugerido: Grid
+    RobotModel → nombre descriptivo sugerido: RobotModel
+    TF → nombre descriptivo sugerido: TF
+    LaserScan → nombre descriptivo sugerido: LaserScan
+    Map → nombre descriptivo sugerido: Map
+
+En este perfil se recomienda que el Fixed Frame sea map y que la visualización quede enfocada en ayudar a verificar:
+
+    La construcción del mapa
+    La orientación correcta del LiDAR
+    La relación entre frames
+    El comportamiento general del robot durante SLAM
