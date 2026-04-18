@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_gazebo/share/puzzlebot_gazebo/launch
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_gazebo/share/puzzlebot_gazebo/launch/puzzlebot_gazebo.launch.xml
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_gazebo/share/puzzlebot_gazebo/worlds
+-- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_gazebo/share/puzzlebot_gazebo/worlds/maze.world
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_gazebo/share/puzzlebot_gazebo/config
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_gazebo/share/puzzlebot_gazebo/config/gazebo_bridge.yaml
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_gazebo/share/ament_index/resource_index/package_run_dependencies/puzzlebot_gazebo
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_gazebo/share/ament_index/resource_index/parent_prefix_path/puzzlebot_gazebo
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_gazebo/share/puzzlebot_gazebo/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_gazebo/share/puzzlebot_gazebo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_gazebo/share/puzzlebot_gazebo/environment/path.sh
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_gazebo/share/puzzlebot_gazebo/environment/path.dsv
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_gazebo/share/puzzlebot_gazebo/local_setup.bash
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_gazebo/share/puzzlebot_gazebo/local_setup.sh
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_gazebo/share/puzzlebot_gazebo/local_setup.zsh
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_gazebo/share/puzzlebot_gazebo/local_setup.dsv
+-- Installing: /home/sofiabl/puzzlebot_ws/install/puzzlebot_gazebo/share/puzzlebot_gazebo/package.dsv
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_gazebo/share/ament_index/resource_index/packages/puzzlebot_gazebo
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_gazebo/share/puzzlebot_gazebo/cmake/puzzlebot_gazeboConfig.cmake
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_gazebo/share/puzzlebot_gazebo/cmake/puzzlebot_gazeboConfig-version.cmake
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_gazebo/share/puzzlebot_gazebo/package.xml
