@@ -1,0 +1,16 @@
+-- Install configuration: ""
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/launch
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/launch/slam.launch.xml
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/launch/slam_core.launch.xml
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/launch/nav2.launch.xml
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/launch/nav2_core.launch.xml
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/maps
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/maps/map.yaml
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/maps/map.pgm
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/maps/my_map.pgm
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/rviz
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/rviz/slam.rviz
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/rviz/nav2.rviz
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/config
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/config/slam_toolbox.yaml
+-- Up-to-date: /home/sofiabl/puzzlebot_ws/install/puzzlebot_navigation/share/puzzlebot_navigation/config/nav2_params.yaml

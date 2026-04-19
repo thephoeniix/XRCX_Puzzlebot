@@ -46,7 +46,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/puzzlebot_gazebo" TYPE DIRECTORY FILES
     "/home/sofiabl/puzzlebot_ws/src/puzzlebot_ros2/puzzlebot_gazebo/launch"
     "/home/sofiabl/puzzlebot_ws/src/puzzlebot_ros2/puzzlebot_gazebo/worlds"
-    "/home/sofiabl/puzzlebot_ws/src/puzzlebot_ros2/puzzlebot_gazebo/configure_file"
+    "/home/sofiabl/puzzlebot_ws/src/puzzlebot_ros2/puzzlebot_gazebo/config"
     )
 endif()
 
