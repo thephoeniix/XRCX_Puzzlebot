@@ -1,22 +1,20 @@
 <launch>
   <let name = "world" value="$(find puzzlebot_gazebo)/worlds/maze_world.world" />
-  <let name = "puzzlebot_description_path" value="$(find puzzlebot_description)/urdf/puzzlebot.urdf.xacro" />
-  
-  
+  <let name = "puzzlebot_description_path" value="$(find puzzlebot_description)/launch/puzzlebot_description.launch.xml" />
   <let name = "gazebo_bridge_config_path" value="$(find-pkg-share puzzlebot_gazebo)/config/gazebo_bridge.yaml" />
   <let name = "gz_sim_launch_path" value="$(find-pkg-share ros_gz_sim)/launch/gz_sim.launch.py" />
   <let name = "x_pose" value="1.35" />
   <let name = "y_pose" value="0.0" />
+
   <let name = "use_sim_time" default="true" />
   <let name = "headless" default="false" />
 
   <include if="$(not $(var headless))" file="$(var gz_sim_launch_path)">
-    <arg name="gz_args" value="-r $(var world)" />
-    <arg name="use_sim_time" value="$(var use_sim_time)" />
+    <arg name="gz_args" value="$(var world) -r" />
   </include>
 
   <include if="$(var headless)" file="$(var gz_sim_launch_path)">
-    <arg name="gz_args" value="-r -s $(var world)" />
+    <arg name="gz_args" value="$(var world) -r -s" />
   </include>
 
   <include if="$(var puzzlebot_description_path)">
@@ -29,5 +27,4 @@
   <node pkg="ros_gz_bridge" exec="parameter_bridge" output="screen" >
     <param name="config_file" value="$(var gazebo_bridge_config_path)" />
   </node>
-
 </launch>
