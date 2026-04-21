@@ -17,7 +17,7 @@
     <arg name="gz_args" value="$(var world) -r -s" />
   </include>
 
-  <include if="$(var puzzlebot_description_path)">
+  <include file="$(var puzzlebot_description_path)">
     <arg name="use_sim_time" value="$(var use_sim_time)" />
   </include>
 
