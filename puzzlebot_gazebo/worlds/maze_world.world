@@ -1521,8 +1521,7 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='Wall_14'>
-          <pose>0.5
-          7478 0.382313 0 0 -0 0</pose>
+          <pose>0.5 7.478 0.382313 0 0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
