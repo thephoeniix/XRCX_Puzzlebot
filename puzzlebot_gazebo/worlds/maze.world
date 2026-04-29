@@ -1,22 +1,27 @@
 <sdf version='1.7'>
   <world name='default'>
     <plugin
-      filename="gz-sim-physics-system"
-      name="gz::sim::systems::Physics">
+      filename="ignition-gazebo-physics-system"
+      name="ignition::gazebo::systems::Physics">
     </plugin>
     <plugin
-      filename="gz-sim-sensors-system"
-      name="gz::sim::systems::Sensors">
+      filename="ignition-gazebo-sensors-system"
+      name="ignition::gazebo::systems::Sensors">
       <render_engine>ogre2</render_engine>
     </plugin>
     <plugin
-      filename="gz-sim-user-commands-system"
-      name="gz::sim::systems::UserCommands">
+      filename="ignition-gazebo-user-commands-system"
+      name="ignition::gazebo::systems::UserCommands">
     </plugin>
     <plugin
-      filename="gz-sim-scene-broadcaster-system"
-      name="gz::sim::systems::SceneBroadcaster">
+      filename="ignition-gazebo-scene-broadcaster-system"
+      name="ignition::gazebo::systems::SceneBroadcaster">
     </plugin>
+    <include>
+      <name>puzzlebot</name>
+      <pose>1.35 0 0.01 0 0 3.14159</pose>
+      <uri>model://puzzlebot_description/sdf</uri>
+    </include>
     <model name='ground_plane'>
       <static>1</static>
       <link name='link'>
