@@ -1,8 +1,7 @@
-<!-- Controller -->
-
 <?xml version="1.0"?>
+<!-- Controller -->
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
-  <xacro:macro name="puzzlebot_control" params="prefix"/>
+  <xacro:macro name="puzzlebot_control" params="prefix">
         <gazebo>
 
             <plugin filename="gz-sim-sensors-system" 
@@ -15,7 +14,7 @@
                 <left_joint>${prefix}wheel_l_joint</left_joint>
                 <right_joint>${prefix}wheel_r_joint</right_joint>
                 <wheel_separation>0.19</wheel_separation>
-                <wheel_redius>0.5</wheel_radius>
+                <wheel_radius>0.5</wheel_radius>
                 <topic>${prefix}cmd_vel</topic>
                 <tf_topic>${prefix}diff_drive/tf</tf_topic>
                 <odom_topic>${prefix}odom</odom_topic>
