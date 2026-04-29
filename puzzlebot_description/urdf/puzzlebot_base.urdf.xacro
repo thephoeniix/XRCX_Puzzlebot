@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
-  <!-- Base footprint -->
+<robot name="puzzlebot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Base Footprint Link -->
   <link name="base_footprint"/>
 
-  <!-- Main robot body -->
+  <!-- Base Link (center of the robot) -->
   <link name="base_link">
     <inertial>
       <mass value="1.0"/>
@@ -14,7 +15,9 @@
       <geometry>
         <mesh filename="package://puzzlebot_description/meshes/Robot_lidar_base/Puzzlebot_Jetson_Lidar_Edition_Base.stl" scale="1 1 1"/>
       </geometry>
-      <material name="yellow"/>
+      <material name="white">
+        <color rgba="1.0 1.0 1.0 1.0"/>
+      </material>
     </visual>
     <collision>
       <geometry>
@@ -23,7 +26,7 @@
     </collision>
   </link>
 
-  <!-- Right wheel -->
+  <!-- Right Wheel Link -->
   <link name="wheel_r_link">
     <inertial>
       <mass value="0.3"/>
@@ -34,7 +37,9 @@
       <geometry>
         <mesh filename="package://puzzlebot_description/meshes/Wheels/Puzzlebot_Wheel.stl" scale="1 1 1"/>
       </geometry>
-      <material name="red"/>
+      <material name="black">
+        <color rgba="0.0 0.0 0.0 1.0"/>
+      </material>
     </visual>
     <collision>
       <geometry>
@@ -43,7 +48,7 @@
     </collision>
   </link>
 
-  <!-- Left wheel -->
+  <!-- Left Wheel Link -->
   <link name="wheel_l_link">
     <inertial>
       <mass value="0.3"/>
@@ -51,10 +56,13 @@
     </inertial>
     <visual>
       <origin xyz="0.0 0.0 0.0" rpy="1.5708 0.0 0.0"/>
+
       <geometry>
         <mesh filename="package://puzzlebot_description/meshes/Wheels/Puzzlebot_Wheel.stl" scale="1 1 1"/>
       </geometry>
-      <material name="blue"/>
+      <material name="black">
+        <color rgba="0.0 0.0 0.0 1.0"/>
+      </material>
     </visual>
     <collision>
       <geometry>
@@ -63,7 +71,7 @@
     </collision>
   </link>
 
-  <!-- Rear caster -->
+  <!-- Caster Wheel Link -->
   <link name="caster_link">
     <inertial>
       <mass value="0.1"/>
@@ -74,7 +82,9 @@
       <geometry>
         <mesh filename="package://puzzlebot_description/meshes/Components/Puzzlebot_Caster_Wheel.stl" scale="1 1 1"/>
       </geometry>
-      <material name="black"/>
+      <material name="black">
+        <color rgba="1.0 1.0 1.0 1.0"/>
+      </material>
     </visual>
     <collision>
       <geometry>
@@ -82,4 +92,37 @@
       </geometry>
     </collision>
   </link>
+
+  <!-- JOINTS -->
+
+  <!-- Fixed joint between base_footprint and base_link (z-axis offset) -->
+  <joint name="base_link_joint" type="fixed">
+    <origin xyz="0.0 0.0 0.05" rpy="0.0 0.0 0.0"/>
+    <parent link="base_footprint"/>
+    <child link="base_link"/>
+  </joint>
+
+  <!-- Right Wheel Joint -->
+  <joint name="wheel_r_joint" type="continuous">
+    <origin xyz="0.052 -0.095 -0.0025" rpy="0.0 0.0 0.0"/>
+    <parent link="base_link"/>
+    <child link="wheel_r_link"/>
+    <axis xyz="0.0 1.0 0.0"/>
+  </joint>
+
+  <!-- Left Wheel Joint -->
+  <joint name="wheel_l_joint" type="continuous">
+    <origin xyz="0.052 0.095 -0.0025" rpy="0.0 0.0 0.0"/>
+    <parent link="base_link"/>
+    <child link="wheel_l_link"/>
+    <axis xyz="0.0 1.0 0.0"/>
+  </joint>
+
+  <!-- Caster Joint -->
+  <joint name="caster_joint" type="fixed">
+    <origin xyz="-0.09 0 -0.043" rpy="0.0 0.0 0.0"/>
+    <parent link="base_link"/>
+    <child link="caster_link"/>
+  </joint>
+
 </robot>
