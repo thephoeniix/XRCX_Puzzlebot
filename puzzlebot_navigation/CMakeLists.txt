@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(puzzlebot_gazebo)
+project(puzzlebot_navigation)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -11,8 +11,9 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
+
 install(
-  DIRECTORY launch worlds config
+  DIRECTORY config launch maps rviz
   DESTINATION share/${PROJECT_NAME}/
 )
 
